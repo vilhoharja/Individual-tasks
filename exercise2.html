@@ -2,41 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Basics - Exercise 1</title>
+    <meta name="Vilho" content="HAMK">
+    <meta name="Description">
+    <title>HTML5 & GitHub Pages - Exercise 2</title>
 </head>
-<body>       
-       
-        <div>
-            <img src="https://www.hamk.fi/wp-content/uploads/2023/08/HAMK_Logo_text_small_FIN-300x71.png" title="kuva">
-            <ul>
-                <li>Hakijalle</li>
-                <li>Opiskelijalle</li>
-                <li>Yrityksille</li>
-                <li>Tutkimus</li>
-                <li>HAMK</li>
-                <li>Yhteystiedot</li>
+<body>
+    <header>
+        <img src="https://www.hamk.fi/wp-content/uploads/2023/08/HAMK_Logo_text_small_FIN-300x71.png" title="kuva">
+        <nav>
+        <ul>
+            <li>Hakijalle</li>
+            <li>Opiskelijalle</li>
+            <li>Yrityksille</li>
+            <li>Tutkimus</li>
+            <li>HAMK</li>
+            <li>Yhteystiedot</li>
         </ul>
-        </div>
-        
-        <div>
+        </nav>
+    </header>
+    <header>
         <h1>Hakijatiedotteet</h1>
         <p>Hakuaika ammatillisiin opettajankoulutuksiin on alkanut 3.1.2024</p>
         <p><em>03.01.2024 16:20</em></p>
         
         <img src="https://www.hamk.fi/wp-content/uploads/2024/01/Opintopolku-OPO-2024.png" alt="photo info" width="750">
         <img src="data:image/png;base64,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" alt="opensrouce image" style="float:right; margin-left: 10px;">
+    </header>
+    <main>
+        <section>
+            <p>Haku ammatillisiin opettajankoulutuksiin on alkanut 3.1. kello 8.00 osoitteessa opintopolku.fi.
+                Hakuaika päättyy torstaina 18.1.2024 kello 15.00. HAMK Ammatillinen opettajakorkeakoulu tarjoaa ammatillista opettajankoulutusta, erityisopettajankoulutusta ja opinto-ohjaajankoulutusta. </p>
+               <p><b>Ammatillinen opettajakoulutus</b></p>
+               <p>Opinnot on mahdollista suorittaa työn ohessa monimuoto-opiskeluna tai verkko-opiskeluna. Monimuoto-opiskelua toteutetaan Hämeenlinnassa, Espoossa, Lahdessa ja Turussa. Opinnot voi tehdä myös täysin verkko-opintoina suomen tai englannin kielellä.  
+               Opinnot alkavat toukokuussa 2024, ja ovat laajuudeltaan 60 opintopistettä ja kestävät 13 kuukautta. Opiskelijat, jotka ovat aiemmin suorittaneet kasvatustieteellisiä perusopintoja, suorittavat opinnot 10 kuukaudessa, ja aloittavat opinnot elokuussa 2024.</p>
+        </section>
+        <aside>
 
-        <p>Haku ammatillisiin opettajankoulutuksiin on alkanut 3.1. kello 8.00 osoitteessa opintopolku.fi.
-         Hakuaika päättyy torstaina 18.1.2024 kello 15.00. HAMK Ammatillinen opettajakorkeakoulu tarjoaa ammatillista opettajankoulutusta, erityisopettajankoulutusta ja opinto-ohjaajankoulutusta. </p>
-        <p><b>Ammatillinen opettajakoulutus</b></p>
-        <p>Opinnot on mahdollista suorittaa työn ohessa monimuoto-opiskeluna tai verkko-opiskeluna. Monimuoto-opiskelua toteutetaan Hämeenlinnassa, Espoossa, Lahdessa ja Turussa. Opinnot voi tehdä myös täysin verkko-opintoina suomen tai englannin kielellä.  
-        Opinnot alkavat toukokuussa 2024, ja ovat laajuudeltaan 60 opintopistettä ja kestävät 13 kuukautta. Opiskelijat, jotka ovat aiemmin suorittaneet kasvatustieteellisiä perusopintoja, suorittavat opinnot 10 kuukaudessa, ja aloittavat opinnot elokuussa 2024.</p>
-        </div>
-        
-        <div>
-        
-        </div>
+        </aside>
+    </main>
+    <rooter>
+        <address>
+            Hämeen ammattikorkeakoulu HAMK<br>
+            PL 230<br>
+            13101 Hämeenlinna
+        </address>
+    </rooter>
 </body>
 </html>
-

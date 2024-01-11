@@ -1,0 +1,122 @@
+    body {
+    background-color: rgb(209, 209, 209);
+    font-size: 16px;
+    margin: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    header{
+    color:black;
+    background-color:rgb(209,209,209);
+    font-size: 20px;
+    text-decoration: dotted;
+    padding: 1em;
+    }
+
+
+    nav {
+    background-color: rgb(209,209,209);
+    padding: 0.2em;
+    }
+
+    nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    .top-menu li{
+    display: inline-block;
+    margin-right: 20px;
+    }
+
+
+    .top-menu a {
+        text-decoration: none;
+        color: rgb(151, 13, 13);
+        font-weight:bold;
+    }
+
+    .top-menu a:link{
+        color:rgb(151, 13, 13);
+    }
+
+    .top-menu a:visited{
+        color: blue;
+    }
+
+    .top-menu a:hover {
+        color:blue;
+    }
+
+
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        margin: auto;
+    }
+
+
+    h2{
+
+    }
+
+
+    p{
+
+    }
+
+
+    img{
+    max-width: 100%;
+    border: 5px solid #555;
+    }
+
+
+    section{
+
+    }
+
+
+    footer{
+        background-color:black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+    #main-header{
+        background-color: #878787;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .h1head{
+        margin: 0;
+        font-size: 32px;
+    }
+
+    .phead{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .content-article{
+        background-color: #4d4d4d;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .h2art{
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .part{
+        color:#666;
+        font-size: 16px;
+        line-height: 1.5;
+    }

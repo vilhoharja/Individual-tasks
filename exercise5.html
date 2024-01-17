@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layout - Exercise 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+
+        header, footer{
+            font-size:x-large;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            background-color:blueviolet;
+            text-align: center;
+
+        }
+
+    main{
+    display: flex;
+    
+    
+    }
+
+        aside{ 
+        display: flex;
+        flex: 1;
+        margin: 5px;
+        font-weight: bold;
+        }
+
+        li{
+        font-size: 20px;
+        margin: 30px;
+        list-style: none;
+        align-self: center;
+        }
+
+        section{
+        flex-direction: column;
+        display: flex;
+        flex: 5;
+        
+        }
+
+        .txt{
+            background-color: aquamarine;
+            margin: 3px;
+        }
+
+        nav{
+        display: flex;
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <header>
+    <p>Flex Box Examples</p>
+    </header>
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarBasic">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="exercise1.html">exercise1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="exercise2.html">exercise2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link exercise4" href="exercise4.html">exercise4</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<main>
+
+<aside>
+<nav>
+<ul>
+    <li>side bar</li>
+    <li>side bar</li>
+    <li>side bar</li>
+    <li>side bar</li>
+    <li>side bar</li>
+    
+</ul>
+</nav> 
+</aside>
+
+    <section>
+<div class="txt">
+<h2>What is HTML?</h2>
+<p>Hypertext Markup Language(HTML) is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells browser how to structure a web page. HTML is made up of series of elements such as a piece of text, a paragraph, list, table, links or forms</p>
+</div>
+
+<div class="txt">
+<h2>HTML Elements</h2>
+<p>As in the above example, HTML document consists of a tree of elements and text. Each element starts with a tag and ends with a tag. Tags have to be nested such that they are completely within each other without overlapping.</p>
+</div>
+
+<div class="txt">
+<h2>Block Level Elements</h2>
+<p>Block-level elements form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line.</p>
+</div>
+    </section>
+    
+</main>
+
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-secondary">
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Scheifele</td>
+        <td>30</td>
+        <td>Winnipeg</td>
+      </tr>
+      <tr class="table-secondary">
+        <th scope="row">2</th>
+        <td>Joe</td>
+        <td>Thornton</td>
+        <td>44</td>
+        <td>San Jose</td>
+      </tr>
+      <tr class="table-secondary">
+        <th scope="row">3</th>
+        <td>Patrick</td>
+        <td>Kane</td>
+        <td>35</td>
+        <td>Detroit</td>
+      </tr>
+      <tr class="table-secondary">
+        <th scope="row">4</th>
+        <td>Jake</td>
+        <td>Allen</td>
+        <td>33</td>
+        <td>Montreal</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+    
+<footer>
+    <p>Learning Flex @ 2024</p>
+</footer>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
